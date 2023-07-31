@@ -1,0 +1,14 @@
+[general]
+enable_bucket = true
+
+[[datasets]]
+resolution = 512
+batch_size = 1 # you might want to have a bigger batch_size to make the training faster.
+caption_extension = '.txt'
+
+  [[datasets.subsets]]
+  image_dir = '/Users/weichenlin/Pictures/Midjourney/ForLoraTraining/images/2_william'
+  class_tokens = 'testmac'
+  num_repeats = 2
+
+
