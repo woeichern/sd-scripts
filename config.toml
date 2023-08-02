@@ -7,8 +7,8 @@ batch_size = 1 # you might want to have a bigger batch_size to make the training
 caption_extension = '.txt'
 
   [[datasets.subsets]]
-  image_dir = '/Users/weichenlin/Pictures/Midjourney/ForLoraTraining/images/3_william'
+  image_dir = '/Users/weichenlin/Pictures/Midjourney/ForLoraTraining/images/4_william'
   class_tokens = 'testmac'
-  num_repeats = 3
+  num_repeats = 20
 
 
