@@ -10,5 +10,3 @@ caption_extension = '.txt'
   image_dir = 'train_images/4_william'
   class_tokens = 'testmac'
   num_repeats = 20
-
-
